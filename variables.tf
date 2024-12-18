@@ -15,5 +15,5 @@ variable "tenant_id" {
 }
 
 variable "prefix" {
-  default = "terraform"
+  type = string
 }
